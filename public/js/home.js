@@ -164,7 +164,3 @@ function getTotal(){
 function saveData(data) {
   localStorage.setItem(data.login, JSON.stringify(data));
 }
-
-function apagarCampos(){
-  document.getElementById("delet-button").value = "";
-}
